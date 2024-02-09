@@ -96,7 +96,7 @@ const HomeScreen = ({ setScreen, screen }) => {
                 data-aos-duration="15000"
                 data-aos-delay="000"
                 className="lawfirm2"
-                src="https://i.ibb.co/F0Rsdtk/Law-Firm-Law-Office-Lawyer-services-Vector-logo-template-on-transparent-PNG.png"
+                src="https://hdbuttercup.com/cdn/shop/products/851532014_1_d16d2245-4c22-43d4-b87c-970f050551cd.png?v=1659484633&width=320"
                 alt=""
               />
             </div>
@@ -105,10 +105,10 @@ const HomeScreen = ({ setScreen, screen }) => {
               data-aos-duration="1000"
               data-aos-delay="000"
             >
-              Blockchain Unmasked is a company comprised of cryptocurrency
-              enthusiasts who have fallen victim of scam after scam losing tens
-              if not hundreds of thousands collectively and want to help others
-              avoid the same fate.
+              We are a team of passionate individuals with a deep appreciation
+              for stylish living spaces. Driven by our love for home design,
+              we've come together to share our insights and experiences. We're
+              committed to guiding others in creating beautiful homes.
             </h1>
             <br></br>
             <h1
@@ -116,10 +116,11 @@ const HomeScreen = ({ setScreen, screen }) => {
               data-aos-duration="1000"
               data-aos-delay="000"
             >
-              We offer a wide array of verification services that attempt to
-              prevent crypto scams, help people recover money lost in crypto
-              scams, and provide peace of mind to YOU the investor by
-              recognizing trustworthy and legitimate projects.
+              At ModBarn Home, we offer an extensive range of services tailored
+              to the world of home renovation and interior design. Our goal is
+              to provide homeowners their ideal living space, and provide you
+              with confidence in selecting trustworthy professionals and
+              projects for your home transformation endeavors.
             </h1>
           </div>
           <div
@@ -128,11 +129,7 @@ const HomeScreen = ({ setScreen, screen }) => {
             data-aos-delay="500"
           >
             <Layer settings={{ speed: -0.1, type: "translateX" }}>
-              <img
-                className="lawfirm"
-                src="https://i.ibb.co/F0Rsdtk/Law-Firm-Law-Office-Lawyer-services-Vector-logo-template-on-transparent-PNG.png"
-                alt=""
-              />
+              <img className="lawfirm" alt="" />
             </Layer>
           </div>
         </div>
@@ -350,56 +347,8 @@ const HomeScreen = ({ setScreen, screen }) => {
                   </CountUp>
                   <h4>Professional Experience</h4>
                 </div>
-                <div
-                  className="innerContainer"
-                  data-aos="fade"
-                  data-aos-duration="2000"
-                  data-aos-delay="200"
-                >
-                  <CountUp
-                    start={0}
-                    end={250}
-                    duration={1.4}
-                    separator=" "
-                    decimals={0}
-                    decimal=","
-                    prefix="$"
-                    suffix="k"
-                  >
-                    {({ countUpRef, start }) => (
-                      <div>
-                        <h2 ref={countUpRef} />
-                      </div>
-                    )}
-                  </CountUp>
-                  <h4>Pending Recoveries</h4>
-                </div>
               </div>
               <div className="flex">
-                <div
-                  className="innerContainer"
-                  data-aos="fade"
-                  data-aos-duration="2000"
-                  data-aos-delay="400"
-                >
-                  <CountUp
-                    start={0}
-                    end={40}
-                    duration={1.5}
-                    separator=" "
-                    decimals={0}
-                    decimal=","
-                    prefix="$"
-                    suffix="k"
-                  >
-                    {({ countUpRef, start }) => (
-                      <div>
-                        <h2 ref={countUpRef} />
-                      </div>
-                    )}
-                  </CountUp>
-                  <h4>Recovered</h4>
-                </div>
                 <div
                   className="innerContainer"
                   data-aos="fade"

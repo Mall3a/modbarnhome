@@ -73,7 +73,7 @@ const Header = ({ setScreen }) => {
                 scroll.scrollToTop();
               }}
             >
-              Verify Today
+              Contact Us{" "}
             </button>
           </Link>
         </div>

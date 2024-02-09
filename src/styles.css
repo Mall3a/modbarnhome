@@ -165,7 +165,7 @@ button:hover {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.1)
     ),
-    url("./images/4.jpg");
+    url("./images/5.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -620,7 +620,8 @@ button:hover {
   align-items: flex-start;
 }
 .footer {
-  background: url("https://i.ibb.co/zXMxgwx/New-Project-2022-04-09-T161829-224-2.png");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    url("./images/4.jpg");
   background-size: cover;
   flex-direction: column;
   padding: 20px 0;
@@ -666,7 +667,7 @@ button:hover {
   margin: 5px 0;
 }
 .footer h4 {
-  color: #2c3b5c;
+  color: var(--lightText);
 }
 .footerSend .submit {
   text-align: left;
