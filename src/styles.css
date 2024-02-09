@@ -3,9 +3,9 @@
 
 :root {
   --lightText: #fff;
-  --darkText: #0d1018;
+  --darkText: hsl(224, 30%, 7%);
   --headerColor: #fff;
-  --blueColor: black;
+  --blueColor: #0e4609;
 }
 
 /* ------------ GLOBALS ------------ */
@@ -165,8 +165,16 @@ button:hover {
 }
 
 .home {
-  background: url("https://i.ibb.co/zXMxgwx/New-Project-2022-04-09-T161829-224-2.png");
-  background-size: 100% 100%;
+  /* Set the background color as a fallback */
+  background-color: #000;
+  /* Set the background video */
+  background: url("https://i.vimeocdn.com/video/1113259695-1c4c4620c07c4844e8a1cff676d6ea98b1893cd97d370dfd0b87fd4bee9e5292-d?mw=2600&mh=1463&q=70")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* Other styles */
   overflow: hidden;
   margin-top: 80px;
   box-shadow: 3000px 3000px 3000px inset #00000040;
