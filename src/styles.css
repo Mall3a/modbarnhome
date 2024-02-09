@@ -165,7 +165,7 @@ button:hover {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.1)
     ),
-    url("./images/5.jpg");
+    url("./images/1.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -255,11 +255,11 @@ button:hover {
   flex-direction: row;
   column-gap: 30px;
 }
-.lawfirm {
-  width: 300px;
+.chair {
+  width: 230px;
 }
-.lawfirm2 {
-  width: 300px;
+.chair2 {
+  width: 230px;
   display: none;
 }
 .about p {
@@ -1097,10 +1097,10 @@ button:hover {
   .home .innerhome {
     width: 80%;
   }
-  .lawfirm {
+  .chair {
     display: none;
   }
-  .lawfirm2 {
+  .chair2 {
     display: block;
   }
 }
@@ -1177,7 +1177,7 @@ button:hover {
   .home .innerhome {
     width: 90%;
   }
-  .lawfirm2 {
+  .chair2 {
     width: 150px;
   }
   .footer h1 {
@@ -1290,7 +1290,7 @@ button:hover {
   .metrics h4 {
     font-size: 14px;
   }
-  .lawfirm2 {
+  .chair2 {
     display: none;
   }
   .services .inner {

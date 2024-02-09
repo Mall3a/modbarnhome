@@ -92,10 +92,11 @@ const HomeScreen = ({ setScreen, screen }) => {
                 tailored to your unique style
               </p>
               <img
+                width="200"
                 data-aos="fade"
                 data-aos-duration="15000"
                 data-aos-delay="000"
-                className="lawfirm2"
+                className="chair2"
                 src="https://hdbuttercup.com/cdn/shop/products/851532014_1_d16d2245-4c22-43d4-b87c-970f050551cd.png?v=1659484633&width=320"
                 alt=""
               />
@@ -129,7 +130,11 @@ const HomeScreen = ({ setScreen, screen }) => {
             data-aos-delay="500"
           >
             <Layer settings={{ speed: -0.1, type: "translateX" }}>
-              <img className="lawfirm" alt="" />
+              <img
+                className="chair"
+                alt=""
+                src="https://hdbuttercup.com/cdn/shop/products/851532014_1_d16d2245-4c22-43d4-b87c-970f050551cd.png?v=1659484633&width=320"
+              />
             </Layer>
           </div>
         </div>
