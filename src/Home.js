@@ -35,20 +35,12 @@ const HomeScreen = ({ setScreen, screen }) => {
     }, 800);
   }, []);
 
-  const RenderGlobe = () => {
-    let totalOrbs = 400;
-    const orbs = [];
-    for (let x = 0; x < totalOrbs; x++) {
-      orbs.push(<div className="c" />);
-    }
-    return orbs;
-  };
-
   const Home = () => {
     return (
       <div className="section home">
         <div key="inner-home" className="inner">
           <div className="wrap"></div>
+
           <div className="innerhome">
             <div
               data-aos="fade-down"
@@ -93,8 +85,9 @@ const HomeScreen = ({ setScreen, screen }) => {
                 data-aos-duration="1000"
                 data-aos-delay="000"
               >
-                The <span className="blue">Next Generation of Crypto </span>
-                Verification for Project Owners and Investors
+                Elevate your space with our
+                <span className="blue">{" modern custom furniture "}</span>
+                tailored to your unique style
               </p>
               <img
                 data-aos="fade"

@@ -153,12 +153,6 @@ button:hover {
 
 /* ------------ HOME ------------ */
 
-.tiltContainer {
-  position: absolute;
-  bottom: -10vh;
-  right: -10vw;
-}
-
 .homeIMG {
   width: 800px !important;
   height: 800px;
@@ -167,35 +161,37 @@ button:hover {
 .home {
   /* Set the background color as a fallback */
   background-color: #000;
-  /* Set the background image */
-  background-image: url("./images/1.jpg");
-  /* Center the background image */
-  background-position: center;
-  /* Make the background image cover the entire element */
+  /* Set the background video */
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/4.jpg");
+  /* Ensure optimal video sizing */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   /* Other styles */
   overflow: hidden;
   margin-top: 80px;
   box-shadow: 3000px 3000px 3000px inset #00000040;
-  /* Animation */
-  animation: gentleMove 20s infinite linear;
+  transition: 1s;
+  animation: zoom 9s linear infinite;
+  background-repeat: no-repeat;
 }
-
-@keyframes gentleMove {
+@keyframes zoom {
   0% {
-    transform: translate(0, 0);
+    transform: scale(1);
   }
-  25% {
-    transform: translate(5px, 5px);
-  }
+
   50% {
-    transform: translate(0, 0);
+    transform: scale(1.05);
   }
-  75% {
-    transform: translate(-5px, -5px);
-  }
-  100% {
-    transform: translate(0, 0);
+
+  to {
+    transform: scale(1);
   }
 }
 
@@ -231,8 +227,8 @@ button:hover {
 }
 
 .home .innerhome button {
-  background: var(--blueColor);
-  border: 1px solid var(--blueColor);
+  background: var(--darkText);
+  border: 1px solid var(--darkText);
   border-radius: 10px;
   height: 40px;
   width: 130px;
@@ -244,24 +240,6 @@ button:hover {
 }
 .home img {
   width: 400px;
-}
-
-.globe {
-  position: absolute;
-  z-index: 1;
-  left: 28vw;
-}
-
-.globeContainer {
-  position: absolute !important;
-  left: 0 !important;
-}
-.globeContainer canvas {
-  position: absolute !important;
-  right: -57vw !important;
-  bottom: -41vh !important;
-  width: 2800px !important;
-  height: 1200px !important;
 }
 
 .container {
@@ -1039,13 +1017,6 @@ button:hover {
   .home p {
     font-size: 65px;
   }
-  .globeContainer canvas {
-    position: absolute !important;
-    right: -57vw !important;
-    bottom: -41vh !important;
-    width: 2000px !important;
-    height: 1200px !important;
-  }
   .homeIMG {
     width: 700px !important;
     height: 700px !important;
@@ -1140,11 +1111,6 @@ button:hover {
 @media only screen and (max-width: 1000px) {
   .homeIMG {
     opacity: 0.3;
-  }
-  .tiltContainer {
-    position: absolute;
-    bottom: -15vh;
-    right: -15vw;
   }
   .left h1 {
     font-size: 40px;
