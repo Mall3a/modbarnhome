@@ -36,7 +36,7 @@ const MainDropdown = ({ setScreen, screen }) => {
                 fill="#999999"
               />
             </svg>
-            <h1>ModBarn </h1> <h1 className="blue">{" Home"}</h1>
+            <h1>ModBarn </h1> <h1 className="darkWoodColor">{" Home"}</h1>
           </div>
           <div
             className={`buttonWrapper ${dropdown ? "open" : "closed"}`}

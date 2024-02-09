@@ -5,7 +5,7 @@
   --lightText: #fff;
   --darkText: hsl(224, 30%, 7%);
   --headerColor: #fff;
-  --blueColor: #684c37;
+  --darkWoodColor: #684c37;
 }
 
 /* ------------ GLOBALS ------------ */
@@ -70,8 +70,8 @@ body {
   padding: 50px 0;
 }
 
-.blue {
-  color: var(--blueColor) !important;
+.darkWoodColor {
+  color: var(--darkWoodColor) !important;
   font-weight: 600;
 }
 
@@ -91,7 +91,7 @@ button:hover {
   z-index: 1000;
   box-shadow: 0 0 10px #0000002e;
 }
-.header .blue {
+.header .darkWoodColor {
   font-weight: 600 !important;
 }
 .header .inner {
@@ -128,16 +128,16 @@ button:hover {
 }
 
 .logo svg path {
-  fill: var(--blueColor);
+  fill: var(--darkWoodColor);
 }
 
 .header button {
   background: none;
-  border: 1px solid var(--blueColor);
+  border: 1px solid var(--darkWoodColor);
   border-radius: 10px;
   height: 40px;
   width: 130px;
-  color: var(--blueColor);
+  color: var(--darkWoodColor);
   margin: 0 5px;
   transition: 0.2s ease-in-out;
 }
@@ -146,8 +146,8 @@ button:hover {
 }
 
 .header .verify {
-  background: var(--blueColor);
-  border: 1px solid var(--blueColor);
+  background: var(--darkWoodColor);
+  border: 1px solid var(--darkWoodColor);
   color: #fff;
 }
 
@@ -159,28 +159,24 @@ button:hover {
 }
 
 .home {
-  /* Set the background color as a fallback */
   background-color: #000;
-  /* Set the background video */
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.1)
     ),
     url("./images/4.jpg");
-  /* Ensure optimal video sizing */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* Other styles */
   overflow: hidden;
   margin-top: 80px;
   box-shadow: 3000px 3000px 3000px inset #00000040;
   transition: 1s;
-  animation: zoom 9s linear infinite;
   background-repeat: no-repeat;
 }
+
 @keyframes zoom {
   0% {
     transform: scale(1);
@@ -367,11 +363,11 @@ button:hover {
 }
 .titleWithIMG button {
   background: none;
-  border: 1px solid var(--blueColor);
+  border: 1px solid var(--darkWoodColor);
   border-radius: 10px;
   height: 40px;
   width: 130px;
-  color: var(--blueColor);
+  color: var(--darkWoodColor);
   margin: 0;
   transition: 0.2s ease-in-out;
 }
@@ -388,7 +384,7 @@ button:hover {
 
 .services h2 {
   text-align: left;
-  color: var(--blueColor);
+  color: var(--darkWoodColor);
   font-size: 30px;
   font-weight: 600;
 }
@@ -507,7 +503,7 @@ button:hover {
 /* ------------ FORMS ------------ */
 
 .forms {
-  background: var(--blueColor);
+  background: var(--darkWoodColor);
   display: flex;
   width: 100%;
   height: 100%;
@@ -601,7 +597,7 @@ button:hover {
 .forms button {
   background-color: rgb(15, 15, 15);
   color: white;
-  border: 1px solid var(--blueColor);
+  border: 1px solid var(--darkWoodColor);
   border-radius: 10px;
   height: 40px;
 }
@@ -698,7 +694,7 @@ button:hover {
 .loading .bubble {
   width: 20px;
   height: 20px;
-  background: var(--blueColor);
+  background: var(--darkWoodColor);
   border-radius: 50%;
   animation: jump 1s ease-in-out infinite;
 }

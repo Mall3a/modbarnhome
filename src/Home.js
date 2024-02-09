@@ -86,7 +86,9 @@ const HomeScreen = ({ setScreen, screen }) => {
                 data-aos-delay="000"
               >
                 Elevate your space with our
-                <span className="blue">{" modern custom furniture "}</span>
+                <span className="darkWoodColor">
+                  {" modern custom furniture "}
+                </span>
                 tailored to your unique style
               </p>
               <img
@@ -148,8 +150,10 @@ const HomeScreen = ({ setScreen, screen }) => {
               data-aos-duration="1500"
               data-aos-delay="00"
             >
-              <span className="blue">Verifying, ranking and rating</span> all
-              projects in the web3, crypto and NFT space to enable safer and
+              <span className="darkWoodColor">
+                Verifying, ranking and rating
+              </span>{" "}
+              all projects in the web3, crypto and NFT space to enable safer and
               more reliable retail investment experience.
             </h5>
             <h5

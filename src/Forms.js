@@ -13,7 +13,7 @@ const Forms = () => {
   const options = [
     { value: "Project Verification", label: "Project Verification" },
     { value: "Scam Investigation", label: "Scam Investigation" },
-    { value: "Fund Recovery", label: "Fund Recovery" }
+    { value: "Fund Recovery", label: "Fund Recovery" },
   ];
 
   const networks = [
@@ -28,7 +28,7 @@ const Forms = () => {
     { value: "Polkadot", label: "Polkadot" },
     { value: "Cardano", label: "Cardano" },
     { value: "Zilliqa", label: "Zilliqa" },
-    { value: "Ethereum Classic", label: "Ethereum Classic" }
+    { value: "Ethereum Classic", label: "Ethereum Classic" },
   ];
 
   useEffect(() => {
@@ -117,7 +117,7 @@ const Forms = () => {
                 onChange={(e) => setRenderForm(e.value)}
                 defaultValue={{
                   value: "Project Verification",
-                  label: "Project Verification"
+                  label: "Project Verification",
                 }}
               />
             </div>
@@ -354,7 +354,7 @@ const Forms = () => {
                 onChange={(e) => setRenderForm(e.value)}
                 defaultValue={{
                   value: "Scam Investigation",
-                  label: "Scam Investigation"
+                  label: "Scam Investigation",
                 }}
               />
             </div>
@@ -592,7 +592,7 @@ const Forms = () => {
                 onChange={(e) => setRenderForm(e.value)}
                 defaultValue={{
                   value: "Fund Recovery",
-                  label: "Fund Recovery"
+                  label: "Fund Recovery",
                 }}
               />
             </div>
@@ -672,7 +672,7 @@ const Forms = () => {
                   onChange={(e) => setNetwork(e.value)}
                   defaultValue={{
                     value: "Ethereum",
-                    label: "Ethereum"
+                    label: "Ethereum",
                   }}
                 />
               </div>
@@ -785,7 +785,7 @@ const Forms = () => {
       <div className="left">
         <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="000">
           Submitting a project for verification has{" "}
-          <span className="blue">never been easier.</span>
+          <span className="darkWoodColor">never been easier.</span>
         </h1>
         <h5 data-aos="fade" data-aos-duration="2000" data-aos-delay="000">
           *The more details you provide, the easier and faster our response will

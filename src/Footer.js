@@ -27,7 +27,7 @@ const Footer = () => {
               />
             </svg>
             <h1>ModBarn</h1>
-            <h1 className="blue">{" Home"}</h1>
+            <h1 className="darkWoodColor">{" Home"}</h1>
           </div>
           <h3>modbarnhome@gmail.com</h3>
           <h3>330 Spear St</h3>
