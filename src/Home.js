@@ -329,7 +329,7 @@ const HomeScreen = ({ setScreen, screen }) => {
                 data-aos-delay="00"
               >
                 <div className="titleWithIMG">
-                  <h2>Blockchain Consulting</h2>
+                  <h2>Leather Chairs</h2>
                   <h3>Coming soon...</h3>
                 </div>
                 {/*
@@ -448,7 +448,7 @@ const HomeScreen = ({ setScreen, screen }) => {
                       </div>
                     )}
                   </CountUp>
-                  <h4>Projects Reviewed</h4>
+                  <h4>Projects Completed</h4>
                 </div>
               </div>
             </div>
