@@ -49,46 +49,20 @@ const HomeScreen = ({ setScreen, screen }) => {
       <div className="section home">
         <div key="inner-home" className="inner">
           <div className="wrap"></div>
-          {/*
-          <div
-            className="tiltContainer"
-            data-aos="fade-left"
-            data-aos-duration="1500"
-            data-aos-delay="500"
-          >
-            <Layer settings={{ speed: -0.2, type: "translateY" }}>
-              <Tilt
-                glareEnable={true}
-                glareMaxOpacity={"0.03"}
-                glareBorderRadius={"50%"}
-                glarePosition={"all"}
-                trackOnWindow={true}
-              >
-                <img
-                  className="homeIMG"
-                  src="https://i.ibb.co/TWfZsGv/New-Project-2022-04-12-T184953-531.png"
-                  alt=""
-                />
-              </Tilt>
-            </Layer>
-          </div>*/}
           <div className="innerhome">
             <div
               data-aos="fade-down"
               data-aos-duration="1500"
               data-aos-delay="500"
             >
-              <p>
-                The New <span className="blue">Standard</span> in Crypto
-                Verification.
-              </p>
+              <p>Transforming Homes, Elevating Lives</p>
             </div>
             <h2
               data-aos="fade-right"
               data-aos-duration="1500"
               data-aos-delay="800"
             >
-              Restoring Integrity by Holding Scammers Accountable
+              Ready to Start Your Renovation Journey?"
             </h2>
             <button
               data-aos="fade-up"
@@ -100,7 +74,7 @@ const HomeScreen = ({ setScreen, screen }) => {
                 scroll.scrollToTop();
               }}
             >
-              Verify Today
+              Contact Us
             </button>
           </div>
         </div>
