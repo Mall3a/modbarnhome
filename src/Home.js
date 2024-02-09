@@ -38,7 +38,7 @@ const HomeScreen = ({ setScreen, screen }) => {
   const Home = () => {
     return (
       <div className="section home">
-        <div key="inner-home" className="inner">
+        <div className="inner">
           <div className="wrap"></div>
 
           <div className="innerhome">
