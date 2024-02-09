@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./Home.js";
+import Forms from "./Forms.js";
+import Header from "./Header.js";
+import MainDropdown from "./MainDropdown.js";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [screen, setScreen] = useState("home");
+  const HandleScreens = () => {
+    if (screen === "home") {
+      return (
+        <>
+          <Home setScreen={(e) => setScreen(e)} screen={screen} />
+        </>
+      );
+    }
+    if (screen === "forms") {
+      return (
+        <>
+          <Forms setScreen={(e) => setScreen(e)} />
+        </>
+      );
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MainDropdown setScreen={(e) => setScreen(e)} screen={screen} />
+      <Header setScreen={(e) => setScreen(e)} screen={screen} />
+      <HandleScreens />
+    </>
   );
-}
+};
 
 export default App;
