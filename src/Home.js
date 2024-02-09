@@ -48,7 +48,7 @@ const HomeScreen = ({ setScreen, screen }) => {
     return (
       <div className="section home">
         <div key="inner-home" className="inner">
-          <div className="wrap">{RenderGlobe()}</div>
+          <div className="wrap"></div>
           {/*
           <div
             className="tiltContainer"
