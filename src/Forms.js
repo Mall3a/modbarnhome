@@ -784,7 +784,7 @@ const Forms = () => {
     <div className="section forms" id="verify">
       <div className="left">
         <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="000">
-          Submitting a project for verification has{" "}
+          Requesting a project has{" "}
           <span className="darkWoodColor">never been easier.</span>
         </h1>
         <h5 data-aos="fade" data-aos-duration="2000" data-aos-delay="000">
